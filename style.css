@@ -1,0 +1,148 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    background-image: url(imagens/wallpaper.jpg);
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+.produto_destaque {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.produto_destaque img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto_destaque h3 {
+    margin: 10px 0;
+}
+
+.produto_destque p {
+    margin: 5px 0;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto {
+    width: calc(20% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.produto:nth-child(5n) {
+    margin-right: 0;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#contato {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#contato h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formulario-contato {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.redes-sociais {
+    margin-top: 10px;
+}
